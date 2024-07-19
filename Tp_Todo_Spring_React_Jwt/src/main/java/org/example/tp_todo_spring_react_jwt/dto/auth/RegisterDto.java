@@ -20,7 +20,7 @@ public class RegisterDto {
     private String username;
     private String email;
     private String password;
-    private Long IdRole;
+    private Long idRole;
    // private Set<Role> Roles = new HashSet<>();
     private List<Todo> todos;
 
