@@ -25,6 +25,7 @@ public class Todo {
     @Column(nullable = false)
     private String description;
 
+    @Enumerated(EnumType.ORDINAL)
     private StatusTodo status;
 
     @ManyToOne(cascade = CascadeType.ALL)
